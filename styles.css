@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -168,3 +172,31 @@ h1 {
 /****************************************************************************************************************************/
 /* HERO SECTION ENDS */
 /****************************************************************************************************************************/
+
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.about-section,
+.geography-section,
+.fun-facts-section {
+    margin: 30px;
+}
+
+.about-section-main-content,
+.geography-section-main-content,
+.fun-facts-section-main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.about-section-main-content img,
+.geography-section-main-content img,
+.fun-facts-main-content img {
+    width: 100%;
+    height: auto;
+}
