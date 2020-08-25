@@ -177,7 +177,9 @@ h1 {
 h2 {
     text-align: center;
     font-size: 3rem;
+    font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .about-section,
@@ -193,6 +195,13 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+}
+
+.about-section-main-content p,
+.geography-section-main-content p,
+.fun-facts-section-main-content li {
+    margin: 1em 0;
+    font-size: 1.25em;
 }
 
 .about-section-main-content img,
