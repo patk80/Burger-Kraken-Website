@@ -214,3 +214,28 @@ h2 {
     width: 100%;
     height: auto;
 }
+
+@media (max-width: 840px) {
+    .about-section-main-content,
+    .geography-section-main-content,
+    .fun-facts-section-main-content {
+        grid-template-columns: 1fr;
+    }
+
+    .about-section-main-content img,
+    .geography-section-main-content img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .geography-section-main-content img {
+        padding-bottom: 20px;
+    }
+
+    .fun-facts-section-main-content img {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
