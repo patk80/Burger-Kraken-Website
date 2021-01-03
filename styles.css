@@ -167,6 +167,15 @@ body {
     font-size: 6rem;
     font-weight: 900;
     letter-spacing: 0.1em;
+    animation: h1Animation 1.5s linear;
+}
+
+@keyframes h1Animation {
+    0% {font-size: 6rem; opacity: 0;}
+   25% {font-size: 6.25rem; opacity: 0.15;}
+   50% {font-size: 6.5rem; opacity: 0.30;}
+   75% {font-size: 6.25rem; opacity: 0.50;}
+  100% {font-size: 6rem; opacity: 1;}
 }
 
 /****************************************************************************************************************************/
