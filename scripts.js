@@ -5,7 +5,7 @@ const bar1          = document.querySelector("#bar-1");
 const bar2          = document.querySelector("#bar-2");
 const bar3          = document.querySelector("#bar-3");
 const about         = document.querySelector("#link-1");
-const geography     = document.querySelector("#link-2");
+const menu          = document.querySelector("#link-2");
 const funFacts      = document.querySelector("#link-3");
 
 toggleButton.addEventListener("click", () => {
@@ -16,7 +16,7 @@ about.addEventListener("click", () => {
   switchToggleStatus();
 });
 
-geography.addEventListener("click", () => {
+menu.addEventListener("click", () => {
   switchToggleStatus();
 });
 
