@@ -22,23 +22,30 @@ body {
     width: 100vw;
     justify-content: space-between;
     align-items: center;
-    background-color: green;
+    background-color: #68adcd;
     padding: 1em 10%;
 }
 
-.brand-title {
-    font-size: 1.5rem;
-    font-weight: bold;
+.navbar-logo-and-brand-text {
+    display: flex;
+    align-items: center;
 }
 
-.brand-title a {
-    color: #ff7900;
+.burger-kraken-logo-nav {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.brand-title-nav {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #051628;
     text-decoration: none;
     transition: color 0.75s;
 }
 
-.brand-title a:hover {
-    color: #fff;
+.brand-title-nav:hover {
+    color: #ffffff;
 }
 
 .navbar-links {
@@ -61,15 +68,15 @@ body {
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #051628;
     padding: 1rem;
-    font-weight: lighter;
+    font-weight: bold;
     letter-spacing: 0.15em;
     transition: color 0.75s;
 }
 
 .navbar-links li a:hover {
-    color: #ff7900;
+    color: #ffffff;
 }
 
 .toggle-button {
