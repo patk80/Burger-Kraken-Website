@@ -348,20 +348,15 @@ footer p {
     }
 
     .about-section-main-content img,
-    .menu-section-main-content img {
-        width: 80%;
+    .menu-section-main-content img,
+    .careers-section-main-content img {
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
 
     .menu-section-main-content img {
         padding-bottom: 20px;
-    }
-
-    .careers-section-main-content img {
-        width: 40%;
-        height: auto;
-        margin: 0 auto;
     }
     
     input,
