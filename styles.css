@@ -296,16 +296,25 @@ h3 {
 label {
     display: block;
     margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 input {
     width: 50%;
     height: 40px;
+    font-family: 'Raleway', sans-serif;
 }
 
 textarea {
     width: 50%;
     height: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.careers-section-right p {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 40px;
 }
 /****************************************************************************************************************************/
 /* CAREERS END */
