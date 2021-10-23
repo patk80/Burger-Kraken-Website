@@ -257,6 +257,18 @@ h2 {
 .burger-name-and-price {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.burger-name {
+    font-size: 2em;
+}
+
+.burger-price {
+    background-color: #051628;
+    color:#68adcd;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .burger-description {
