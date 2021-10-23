@@ -208,20 +208,24 @@ h2 {
     margin-bottom: 30px;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
 .about-section,
 .menu-section,
-.fun-facts-section {
+.careers-section {
     padding: 90px 30px 0 30px;
 }
 
 .about-section,
-.fun-facts-section {
+.careers-section {
     background-color: #a3dbe4;
 }
 
 .about-section-main-content,
 .menu-section-main-content,
-.fun-facts-section-main-content {
+.careers-section-main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
@@ -230,14 +234,14 @@ h2 {
 
 .about-section-main-content p,
 .menu-section-main-content p,
-.fun-facts-section-main-content li {
+.careers-section-main-content li {
     margin: 1em 0;
     font-size: 1.25em;
 }
 
 .about-section-main-content img,
 .menu-section-main-content img,
-.fun-facts-main-content img {
+.careers-section-main-content img {
     width: 100%;
     height: auto;
 }
@@ -317,7 +321,7 @@ footer p {
 
     .about-section-main-content,
     .menu-section-main-content,
-    .fun-facts-section-main-content {
+    .careers-section-main-content {
         grid-template-columns: 1fr;
     }
 
@@ -332,7 +336,7 @@ footer p {
         padding-bottom: 20px;
     }
 
-    .fun-facts-section-main-content img {
+    .careers-section-main-content img {
         width: 40%;
         height: auto;
         margin: 0 auto;
