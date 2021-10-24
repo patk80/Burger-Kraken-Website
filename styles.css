@@ -317,6 +317,23 @@ textarea {
     text-align: center;
     padding: 0 40px;
 }
+
+.careers-button {
+    padding: 10px 20px;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    background-color: #68adcd;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    transition: all 0.75s;
+}
+
+.careers-button:hover {
+    background-color: #051628;
+    transition: all 0.75s;
+}
 /****************************************************************************************************************************/
 /* CAREERS END */
 /****************************************************************************************************************************/
